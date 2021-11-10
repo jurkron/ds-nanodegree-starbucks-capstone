@@ -1,0 +1,26 @@
+{% extends "master.html" %}
+{% block title %}Results{% endblock %}
+
+{% block message %}
+    <hr />
+    <h4 class="text-center">MESSAGE</h4>
+    <p class="text-center"><i>{{query}}</i></p>
+{% endblock %}
+
+{% block content %}
+    <h1 class="text-center">Result</h1>
+        <ul class="list-group">
+            {% for portfolio, classification in classification_result.items() %}
+                {% if classification == 'Completed' %}
+                    <li class="list-group-item list-group-item-success text-center">{{portfolio[0]}} -> {{portfolio[1]}}</li>
+                {% elif classification == 'Viewed' %}
+                    <li class="list-group-item list-group-item-warning text-center">{{portfolio[0]}} -> {{portfolio[1]}}</li>
+                {% else %}
+                    <li class="list-group-item list-group-item-danger text-center">{{portfolio[0]}} -> {{portfolio[1]}}</li>
+                {% endif %}
+            {% endfor %}
+
+        </div>
+    </div>
+
+{% endblock %}
