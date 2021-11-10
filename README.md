@@ -23,6 +23,8 @@ further libraries are used and should be preinstalled
 
 ## Files
 
+    Starbucks_Capstone_Project.ipynb -  jupyter notebook containing the project work
+
 #### app
 
     run.py - script to run the app
