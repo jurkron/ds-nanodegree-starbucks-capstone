@@ -1,5 +1,8 @@
 # Starbucks Capstone Project
 
+welcome to this repository, if you want to know all the details of this projects, please read the [Starbucks_Capstone_Project.pdf](Starbucks_Capstone_Project.pdf) my write up. If you just want to know somethign about the app, that was originated by this project please go on.
+I hope you'll enjoy this work.
+
 ## Project Motivation
 
 This notebook contains my capstone project for the data science nanodegree from Udacity. I'm using the data from Starbucks, that contains simulated mimics customer behavior. Once every few days, Starbucks sends offers to users of their app. These offers can be advertisements for a drink or an actual offer or a BOGO (buy one get one free). Not all users receive the same offer.
@@ -23,7 +26,9 @@ further libraries are used and should be preinstalled
 
 ## Files
 
-    Starbucks_Capstone_Project.ipynb -  jupyter notebook containing the project work
+[Starbucks_Capstone_Project.pdf](Starbucks_Capstone_Project.pdf) - this is write up of the projects. It explains the complete project in detail
+
+[Starbucks_Capstone_Project.ipynb](Starbucks_Capstone_Project.ipynb) -  jupyter notebook containing the project work
 
 #### app
 
